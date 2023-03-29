@@ -20,10 +20,11 @@
     <table class="table table-hover">
 
         <tr>
+            <div class="row">
             <th class="col-1">Nr.</th>
             <th class="col-5">Prekė</th>
             <th class="col-6">Prekės kategorija</th>
-
+            </div>
         </tr>
         <?php for ($i = 0; $i < count($_SESSION["list"]); $i++) { ?>
             <tr>
